@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="StudentName">Enter Name</string>
+    <string name="AnswerOne">Answer1</string>
+    <string name="StandUpTime">1. The daily stand-up should be time-boxed for how many minutes?</string>
+    <string name="ScrumRoles">2. Select the roles defined by the Scrum framework.</string>
+    <string name="Facilitator">3. In Scrum who facilitates the daily stand-up?</string>
+    <string name="ScrumMaster">3. In Scrum who facilitates the daily stand-up?</string>
+    <string name="SetsPriority">4. In Scrum what role determines priority?</string>
+    <string name="ScrumCeremonies">5. Select the Scrum ceremonies.</string>
+    <string name="EnterAnswer">Enter Answer</string>
+    <string name="Answer2A">Product Owner</string>
+    <string name="Answer2B">Project Manager</string>
+    <string name="Answer2C">Scrum Master</string>
+    <string name="Answer2D">Team Member</string>
+    <string name="Answer3A">Product Owner</string>
+    <string name="Answer3B">Project Manager</string>
+    <string name="Answer3C">Scrum Master</string>
+    <string name="Answer3D">Team Manager</string>
+    <string name="Answer4A">Product Owner</string>
+    <string name="Answer4B">Project Manager</string>
+    <string name="Answer4C">Scrum Master</string>
+    <string name="Answer4D">Developer</string>
+    <string name="Answer5A">Status Meeting</string>
+    <string name="Answer5B">Sprint Planning</string>
+    <string name="Answer5C">Post Mortem</string>
+    <string name="Answer5D">Daily Stand-up</string>
+    <string name="ButtonText">Submit</string>
+    <string name="CaseDefault">None of the case conditions were satisfied.</string>
+</resources>
