@@ -6,7 +6,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:clickable="true"
         android:focusableInTouchMode="true"
         android:orientation="vertical"
@@ -45,20 +45,12 @@
                 android:id="@+id/question2"
                 style="@style/QuestionTextStyle"
                 android:text="@string/ScrumRoles" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
-
                 <CheckBox
                     android:id="@+id/Answer2A"
                     style="@style/QuestionTextStyle"
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer2A" />
 
                 <CheckBox
@@ -67,14 +59,8 @@
                     android:layout_width="fill_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer2B" />
-            </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <CheckBox
                     android:id="@+id/Answer2C"
@@ -82,7 +68,6 @@
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer2C" />
 
                 <CheckBox
@@ -91,9 +76,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer2D" />
-            </LinearLayout>
 
             <TextView
                 android:id="@+id/question3"
@@ -112,7 +95,6 @@
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer3A" />
 
                 <RadioButton
@@ -121,7 +103,6 @@
                     android:layout_width="fill_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer3B" />
 
 
@@ -131,7 +112,6 @@
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer3C" />
 
                 <RadioButton
@@ -140,7 +120,6 @@
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer3D" />
             </RadioGroup>
 
@@ -161,7 +140,6 @@
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer4A" />
 
                 <RadioButton
@@ -170,7 +148,6 @@
                     android:layout_width="fill_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer4B" />
 
                 <RadioButton
@@ -179,7 +156,6 @@
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer4C" />
 
                 <RadioButton
@@ -188,7 +164,6 @@
                     android:layout_width="fill_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer4D" />
             </RadioGroup>
 
@@ -197,11 +172,6 @@
                 style="@style/QuestionTextStyle"
                 android:text="@string/ScrumCeremonies" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
 
                 <CheckBox
                     android:id="@+id/Answer5A"
@@ -209,7 +179,6 @@
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer5A" />
 
                 <CheckBox
@@ -218,22 +187,15 @@
                     android:layout_width="fill_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer5B" />
-            </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <CheckBox
+            <CheckBox
                     android:id="@+id/Answer5C"
                     style="@style/QuestionTextStyle"
                     android:layout_width="135dp"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer5C" />
 
                 <CheckBox
@@ -242,9 +204,8 @@
                     android:layout_width="fill_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="1dp"
-                    android:inputType="textCapWords"
                     android:text="@string/Answer5D" />
-            </LinearLayout>
+
 
             <Button
                 android:layout_width="wrap_content"
@@ -253,7 +214,7 @@
                 android:layout_marginTop="20dp"
                 android:onClick="submitQuiz"
                 android:text="@string/ButtonText" />
-
         </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
